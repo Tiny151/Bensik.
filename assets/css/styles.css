@@ -43,7 +43,7 @@ a {
     opacity: 0.9;
 }
 
-/* Header */
+/* ================  Header  ================ */
 .header {
     background: #e6f0ff;
     height: 100vh;
@@ -52,7 +52,7 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 38px;
 }
 
 .navbar ul {
@@ -84,4 +84,41 @@ a {
 .navbar .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+}
+
+/* ================  Hero  ================ */
+.hero {
+    margin-top: 138px;
+}
+
+.hero .info {
+    width: 50%;
+}
+
+.hero .subtitle {
+    color: #687690;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.018rem;
+}
+
+.hero .title {
+    margin-top: 8px;
+    color: #000336;
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 7.6rem; /* 118.75% */
+}
+
+.hero .desc {
+    margin-top: 30px;
+    color: #5a6473;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3.2rem; /* 177.778% */
+}
+
+.hero-btn {
+    margin-top: 40px;
+    min-width: 170px;
 }
