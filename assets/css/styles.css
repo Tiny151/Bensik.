@@ -34,7 +34,7 @@ a {
     text-align: center;
     font-size: 1.4rem;
     font-weight: 500;
-    border-radius: 8px;
+    border-radius: 12px;
     background: var(--primary-color);
     padding: 18px 16px;
 }
@@ -85,6 +85,7 @@ a {
 .navbar .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+    border-radius: 8px;
 }
 
 /* ================  Hero  ================ */
@@ -190,4 +191,42 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 3rem; /* 187.5% */
+}
+
+.guide-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.guide-item {
+    margin: 0 70px;
+    text-align: center;
+}
+
+.guide-item .title {
+    margin-top: 26px;
+    color: #3b3c45;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.2rem; /* 110% */
+}
+
+.guide-item .link {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: #0689ff;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.guide-item .link .arrow-right {
+    margin-left: 8px;
+}
+
+.guide-cta {
+    min-width: 170px;
+    margin-top: 50px;
+    text-align: center;
 }
