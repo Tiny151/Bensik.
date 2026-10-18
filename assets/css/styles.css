@@ -221,7 +221,7 @@ a {
     font-weight: 600;
 }
 
-.guide-item .link .arrow-right {
+.guide-item .link .right-arrow {
     margin-left: 8px;
 }
 
@@ -229,4 +229,41 @@ a {
     min-width: 170px;
     margin-top: 50px;
     text-align: center;
+}
+
+/* ================  Featured Properties  ================ */
+.featured {
+    margin-top: 230px;
+}
+
+.featured .subtitle {
+    color: #000339;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.featured .row {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured .desc {
+    color: #5a6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem; /* 187.5% */
+}
+
+.featured .link {
+    display: flex;
+    align-items: center;
+    color: #0689ff;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.featured .link .right-arrow {
+    margin-left: 8px;
 }
