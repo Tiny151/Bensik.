@@ -314,6 +314,7 @@ a {
     color: #a3a6ab;
     font-size: 1.4rem;
     font-weight: 500;
+    word-break: break-all;
 }
 
 .featured .item .info {
