@@ -140,7 +140,8 @@ a {
 
 /* ================  Clients  ================ */
 .clients {
-    margin-top: 122px;
+    margin-top: 79px;
+    padding: 43px 0 64px;
 }
 
 .clients .row {
@@ -163,7 +164,8 @@ a {
 
 /* ================  Guides  ================ */
 .guides {
-    margin-top: 200px;
+    margin-top: 40px;
+    padding: 93px 0 79px;
 }
 
 .guides .subtitle {
@@ -239,7 +241,7 @@ a {
 
 /* ================  Featured Properties  ================ */
 .featured {
-    margin-top: 120px;
+    margin-top: 41px;
     padding: 110px 0;
     background: #f5fafe;
 }
