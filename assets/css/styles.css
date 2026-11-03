@@ -416,36 +416,13 @@ a {
     margin-left: -3px;
     object-fit: cover;
     border-radius: 50%;
-}
-
-.stats .ava1 {
-    background: #1f3bb1;
+    background: var(--bg-color, #fff);
     color: #fff;
     line-height: 16px;
     text-align: center;
     font-size: 0.7261rem;
     font-weight: 450;
     letter-spacing: -0.0145rem;
-}
-
-.stats .ava2 {
-    background: #24D6D9;
-}
-
-.stats .ava3 {
-    background: #F8C120;
-}
-
-.stats .ava4 {
-    background: #F97F6B;
-}
-
-.stats .ava5 {
-    background: #73A242;
-}
-
-.stats .ava6 {
-    background: #1F3BB0;
 }
 
 .stats .img-block .image {
