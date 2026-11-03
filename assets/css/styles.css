@@ -393,10 +393,59 @@ a {
     line-height: 1.8rem; /* 150% */
 }
 
-.stats-trend .seperate-line {
+.stats-trend .separate-line {
     margin-top: 25.5px;
     background: #e9e9e9;
     height: 1.2px;
+}
+
+.stats .avatar-block {
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 14px;
+}
+
+.stats .avatar-group {
+    display: flex;
+}
+
+.stats .avatar {
+    width: 16px;
+    height: 16px;
+    margin-left: -3px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stats .ava1 {
+    background: #1f3bb1;
+    color: #fff;
+    line-height: 16px;
+    text-align: center;
+    font-size: 0.7261rem;
+    font-weight: 450;
+    letter-spacing: -0.0145rem;
+}
+
+.stats .ava2 {
+    background: #24D6D9;
+}
+
+.stats .ava3 {
+    background: #F8C120;
+}
+
+.stats .ava4 {
+    background: #F97F6B;
+}
+
+.stats .ava5 {
+    background: #73A242;
+}
+
+.stats .ava6 {
+    background: #1F3BB0;
 }
 
 .stats .img-block .image {
