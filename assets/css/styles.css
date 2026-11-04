@@ -425,6 +425,10 @@ a {
     letter-spacing: -0.0145rem;
 }
 
+.stats .avatar:first-child{
+    margin-left: 0;
+}
+
 .stats .img-block .image {
     display: block;
     margin-left: auto;
