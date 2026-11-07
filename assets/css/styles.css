@@ -425,7 +425,7 @@ a {
     letter-spacing: -0.0145rem;
 }
 
-.stats .avatar:first-child{
+.stats .avatar:first-child {
     margin-left: 0;
 }
 
@@ -490,4 +490,59 @@ a {
     color: #7b8087;
     font-size: 1.8rem;
     font-weight: 500;
+}
+
+/* Subscription */
+.subscription {
+    margin-top: 90px;
+}
+
+.subscription .content {
+    
+}
+
+.subscription .body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 370px;
+    border-radius: 20px;
+    background: #063183;
+}
+
+.subscription .info {
+    width: 671px;
+    max-width: 100%;
+    padding: 0 80px;
+}
+
+.subscription .subtitle {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.subscription .desc {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3rem; /* 187.5% */
+}
+.subscription .btn {
+    margin-top: 20px;
+    width: 151px;
+    height: 50px;
+    background: #fff;
+    color: #002366;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.subscription .subscription-img {
+    position: absolute;
+    bottom: 0;
+    right: 221px;
 }
